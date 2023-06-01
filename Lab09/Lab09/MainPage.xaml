@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab09.MainPage">
+
+    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="#656565" Spacing="25">
+        <Label Text="Bienvenidos a mi menu de Opciones" HorizontalOptions="Center" VerticalOptions="Center"  Padding="20" FontSize="18" TextColor="#F5F5F5"/>
+        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="50">
+            <Button x:Name="Item1" Text="PanDemo" Padding="20" BorderColor="BlanchedAlmond" BorderWidth="5" CharacterSpacing="2"></Button>
+            <Button x:Name="Item2" Text="PinchDemo" Padding="25" BorderColor="BlanchedAlmond" BorderWidth="5" CharacterSpacing="2"></Button>
+            <Button x:Name="Item3" Text="SwipeDemo" Padding="25" BorderColor="BlanchedAlmond" BorderWidth="5" CharacterSpacing="2"></Button>
+            <Button x:Name="Item4" Text="TapDemo" Padding="25" BorderColor="BlanchedAlmond" BorderWidth="5" CharacterSpacing="2"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
